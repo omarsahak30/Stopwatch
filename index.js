@@ -24,7 +24,7 @@ window.onload = function () {
         appendMilliseconds.innerHTML = milliseconds;
         appendSeconds.innerHTML = seconds;
     }
-}
+
 function startTimer() {
     milliseconds++;
 
@@ -45,4 +45,5 @@ function startTimer() {
     if (seconds > 9) {
         appendSeconds.innerHTML = seconds;
     }
+}
 }
